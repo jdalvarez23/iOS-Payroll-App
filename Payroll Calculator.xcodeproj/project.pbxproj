@@ -52,6 +52,7 @@
 		F92DBBE2220D1CAB00BB028B = {
 			isa = PBXGroup;
 			children = (
+				F9D2FA6722190FEE00F35653 /* App Screenshots */,
 				F92DBBED220D1CAB00BB028B /* Payroll Calculator */,
 				F92DBBEC220D1CAB00BB028B /* Products */,
 			);
@@ -68,7 +69,6 @@
 		F92DBBED220D1CAB00BB028B /* Payroll Calculator */ = {
 			isa = PBXGroup;
 			children = (
-				F9D2FA6722190FEE00F35653 /* App Screenshots */,
 				F92DBBEE220D1CAB00BB028B /* AppDelegate.swift */,
 				F92DBBF0220D1CAB00BB028B /* ViewController.swift */,
 				F92DBBF2220D1CAB00BB028B /* Main.storyboard */,
