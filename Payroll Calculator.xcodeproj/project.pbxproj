@@ -13,6 +13,7 @@
 		F92DBBF4220D1CAB00BB028B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F92DBBF2220D1CAB00BB028B /* Main.storyboard */; };
 		F92DBBF6220D1CAC00BB028B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F92DBBF5220D1CAC00BB028B /* Assets.xcassets */; };
 		F92DBC0C220F291C00BB028B /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F92DBC0A220F1E4800BB028B /* DetailsViewController.swift */; };
+		F9D2FA662217E92E00F35653 /* StatementsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9D2FA652217E92E00F35653 /* StatementsController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		F92DBBF5220D1CAC00BB028B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F92DBBFA220D1CAC00BB028B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F92DBC0A220F1E4800BB028B /* DetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsViewController.swift; sourceTree = "<group>"; };
+		F9D2FA652217E92E00F35653 /* StatementsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatementsController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				F92DBBFA220D1CAC00BB028B /* Info.plist */,
 				F92DBC0A220F1E4800BB028B /* DetailsViewController.swift */,
 				F9252E45220F7C5A00F5B6E2 /* EmployeeClass.swift */,
+				F9D2FA652217E92E00F35653 /* StatementsController.swift */,
 			);
 			path = "Payroll Calculator";
 			sourceTree = "<group>";
@@ -140,6 +143,7 @@
 				F9252E46220F7C5A00F5B6E2 /* EmployeeClass.swift in Sources */,
 				F92DBC0C220F291C00BB028B /* DetailsViewController.swift in Sources */,
 				F92DBBF1220D1CAB00BB028B /* ViewController.swift in Sources */,
+				F9D2FA662217E92E00F35653 /* StatementsController.swift in Sources */,
 				F92DBBEF220D1CAB00BB028B /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

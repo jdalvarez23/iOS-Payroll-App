@@ -8,14 +8,13 @@
 
 import UIKit
 
-class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
+var statementArray: [Employee] = [] // initialize statement array
+
+class ViewController: UIViewController {
     
     // var statementList = ["Milk", "Honey", "Bread", "Tacos", "Tomatoes"]
     
-    var statementList = [Employee]() // initialize statement array
-    
     // initialize storyboard components
-    @IBOutlet weak var tableView: UITableView!
     @IBOutlet weak var firstNameLabel: UITextField!
     @IBOutlet weak var lastNameLabel: UITextField!
     @IBOutlet weak var hourlyWageLabel: UITextField!
@@ -28,6 +27,8 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        print("Statement Count When Entering Form:", statementArray.count)
         
         // Do any additional setup after loading the view, typically from a nib.
     }
@@ -71,82 +72,11 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
         
         // print(employeeInstance.getStateDeduction())
         
-        statementList.append(employeeInstance) // append employee instance to array
+        statementArray.append(employeeInstance) // append employee instance to array
         
-        // refreshTableViewData()
+        print("STATEMENT OBJECTS:", statementArray.count)
         
-        // print("STATEMENT NAME:", statementList[0].firstName)
-        
-        self.navigationController?.popToRootViewController(animated: true) // return to initial view controller
-        
-    }
-    
-    // method that refreshes the tableView data
-    func refreshTableViewData() {
-        
-        print("Call to refresh executed...")
-        
-        // self.table.reloadData()
-        
-        /*
-        DispatchQueue.main.async {
-            self.table.reloadData()
-        } */
-        
-    }
-    
-    
-    // method that returns a list to the table view
-    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        
-        print("FUNCTION THAT RETURNS STATEMENTLIST EXECUTED")
-        
-        return (statementList.count)
-        
-    }
-    
-    // method that inserts cells into the table view
-    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        
-        print("FUNCTION THAT INSERTS TO TABLEVIEW EXECUTED!")
-        
-        let cell = tableView.dequeueReusableCell(withIdentifier: "cell", for: indexPath)
-        
-        print("MSG: COUNT:", statementList.count)
-        
-        if (statementList.count > 0) {
-            print("MSG: STATEMENTS EXIST!")
-            
-            cell.textLabel?.text = statementList[indexPath.row].firstName + " " + statementList[indexPath.row].lastName
-            cell.detailTextLabel?.text = statementList[indexPath.row].dateCreated
-            
-        }
-        
-        return (cell)
-    }
-    
-    // method that navigates from the table view to the details view controller
-    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        // self.performSegue(withIdentifier: "detailsViewController", sender: self)
-        
-        performSegue(withIdentifier: "detailsViewController", sender: self)
-        
-    }
-    
-    
-    // method that passes data between table view controller to detals view controller
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        if (segue.identifier == "detailsViewController") {
-            
-            if let indexPath = tableView.indexPathForSelectedRow {
-                
-                let destinationViewController = segue.destination as! DetailsViewController
-                
-                destinationViewController.titleText = statementList[indexPath.row].firstName
-                
-            }
-        
-        }
+        self.navigationController?.popToRootViewController(animated: true) // method that returns to initial view controller
     }
     
 }

@@ -56,7 +56,7 @@ class Employee: NSObject {
      */
     // Final Amount
     
-    
+    // method that calculates federal tax deduction
     func getFederalDeduction() -> Double {
         
         print("Federal Tax Rate", federalTaxRate)
@@ -67,6 +67,7 @@ class Employee: NSObject {
         
     }
     
+    // method that calculates state tax deductions
     func getStateDeduction() -> Double {
         
         print("State Tax Rate", stateTaxRate)
@@ -77,12 +78,14 @@ class Employee: NSObject {
         
     }
     
+    // method that calculates gross earnings (pre-tax deduction)
     func calculateGrossEarnings() -> Double {
         
         return grossEarnings
         
     }
     
+    // method that calculates net earnings (post-tax deduction)
     func calculateNetEarnings() -> Double {
         
         let federalDeduction: Double = grossEarnings * federalTaxRate
