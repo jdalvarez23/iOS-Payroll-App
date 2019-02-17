@@ -14,11 +14,6 @@
 		F92DBBF6220D1CAC00BB028B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F92DBBF5220D1CAC00BB028B /* Assets.xcassets */; };
 		F92DBC0C220F291C00BB028B /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F92DBC0A220F1E4800BB028B /* DetailsViewController.swift */; };
 		F9D2FA662217E92E00F35653 /* StatementsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9D2FA652217E92E00F35653 /* StatementsController.swift */; };
-		F9D2FA6F2219103600F35653 /* Simulator Screen Shot - iPhone 8 - 2019-02-16 at 21.40.09.png in Resources */ = {isa = PBXBuildFile; fileRef = F9D2FA6A2219103500F35653 /* Simulator Screen Shot - iPhone 8 - 2019-02-16 at 21.40.09.png */; };
-		F9D2FA702219103600F35653 /* Simulator Screen Shot - iPhone 8 - 2019-02-16 at 21.39.08.png in Resources */ = {isa = PBXBuildFile; fileRef = F9D2FA6B2219103500F35653 /* Simulator Screen Shot - iPhone 8 - 2019-02-16 at 21.39.08.png */; };
-		F9D2FA712219103600F35653 /* Simulator Screen Shot - iPhone 8 - 2019-02-16 at 21.39.31.png in Resources */ = {isa = PBXBuildFile; fileRef = F9D2FA6C2219103600F35653 /* Simulator Screen Shot - iPhone 8 - 2019-02-16 at 21.39.31.png */; };
-		F9D2FA722219103600F35653 /* Simulator Screen Shot - iPhone 8 - 2019-02-16 at 21.40.19.png in Resources */ = {isa = PBXBuildFile; fileRef = F9D2FA6D2219103600F35653 /* Simulator Screen Shot - iPhone 8 - 2019-02-16 at 21.40.19.png */; };
-		F9D2FA732219103600F35653 /* Simulator Screen Shot - iPhone 8 - 2019-02-16 at 21.40.14.png in Resources */ = {isa = PBXBuildFile; fileRef = F9D2FA6E2219103600F35653 /* Simulator Screen Shot - iPhone 8 - 2019-02-16 at 21.40.14.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,11 +26,6 @@
 		F92DBBFA220D1CAC00BB028B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F92DBC0A220F1E4800BB028B /* DetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsViewController.swift; sourceTree = "<group>"; };
 		F9D2FA652217E92E00F35653 /* StatementsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatementsController.swift; sourceTree = "<group>"; };
-		F9D2FA6A2219103500F35653 /* Simulator Screen Shot - iPhone 8 - 2019-02-16 at 21.40.09.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Simulator Screen Shot - iPhone 8 - 2019-02-16 at 21.40.09.png"; path = "../../../../../Desktop/Simulator Screen Shot - iPhone 8 - 2019-02-16 at 21.40.09.png"; sourceTree = "<group>"; };
-		F9D2FA6B2219103500F35653 /* Simulator Screen Shot - iPhone 8 - 2019-02-16 at 21.39.08.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Simulator Screen Shot - iPhone 8 - 2019-02-16 at 21.39.08.png"; path = "../../../../../Desktop/Simulator Screen Shot - iPhone 8 - 2019-02-16 at 21.39.08.png"; sourceTree = "<group>"; };
-		F9D2FA6C2219103600F35653 /* Simulator Screen Shot - iPhone 8 - 2019-02-16 at 21.39.31.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Simulator Screen Shot - iPhone 8 - 2019-02-16 at 21.39.31.png"; path = "../../../../../Desktop/Simulator Screen Shot - iPhone 8 - 2019-02-16 at 21.39.31.png"; sourceTree = "<group>"; };
-		F9D2FA6D2219103600F35653 /* Simulator Screen Shot - iPhone 8 - 2019-02-16 at 21.40.19.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Simulator Screen Shot - iPhone 8 - 2019-02-16 at 21.40.19.png"; path = "../../../../../Desktop/Simulator Screen Shot - iPhone 8 - 2019-02-16 at 21.40.19.png"; sourceTree = "<group>"; };
-		F9D2FA6E2219103600F35653 /* Simulator Screen Shot - iPhone 8 - 2019-02-16 at 21.40.14.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Simulator Screen Shot - iPhone 8 - 2019-02-16 at 21.40.14.png"; path = "../../../../../Desktop/Simulator Screen Shot - iPhone 8 - 2019-02-16 at 21.40.14.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,7 +58,6 @@
 		F92DBBED220D1CAB00BB028B /* Payroll Calculator */ = {
 			isa = PBXGroup;
 			children = (
-				F9D2FA6722190FEE00F35653 /* App Screenshots */,
 				F92DBBEE220D1CAB00BB028B /* AppDelegate.swift */,
 				F92DBBF0220D1CAB00BB028B /* ViewController.swift */,
 				F92DBBF2220D1CAB00BB028B /* Main.storyboard */,
@@ -79,18 +68,6 @@
 				F9D2FA652217E92E00F35653 /* StatementsController.swift */,
 			);
 			path = "Payroll Calculator";
-			sourceTree = "<group>";
-		};
-		F9D2FA6722190FEE00F35653 /* App Screenshots */ = {
-			isa = PBXGroup;
-			children = (
-				F9D2FA6B2219103500F35653 /* Simulator Screen Shot - iPhone 8 - 2019-02-16 at 21.39.08.png */,
-				F9D2FA6C2219103600F35653 /* Simulator Screen Shot - iPhone 8 - 2019-02-16 at 21.39.31.png */,
-				F9D2FA6A2219103500F35653 /* Simulator Screen Shot - iPhone 8 - 2019-02-16 at 21.40.09.png */,
-				F9D2FA6E2219103600F35653 /* Simulator Screen Shot - iPhone 8 - 2019-02-16 at 21.40.14.png */,
-				F9D2FA6D2219103600F35653 /* Simulator Screen Shot - iPhone 8 - 2019-02-16 at 21.40.19.png */,
-			);
-			path = "App Screenshots";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -151,13 +128,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F9D2FA712219103600F35653 /* Simulator Screen Shot - iPhone 8 - 2019-02-16 at 21.39.31.png in Resources */,
-				F9D2FA732219103600F35653 /* Simulator Screen Shot - iPhone 8 - 2019-02-16 at 21.40.14.png in Resources */,
 				F92DBBF6220D1CAC00BB028B /* Assets.xcassets in Resources */,
 				F92DBBF4220D1CAB00BB028B /* Main.storyboard in Resources */,
-				F9D2FA702219103600F35653 /* Simulator Screen Shot - iPhone 8 - 2019-02-16 at 21.39.08.png in Resources */,
-				F9D2FA722219103600F35653 /* Simulator Screen Shot - iPhone 8 - 2019-02-16 at 21.40.19.png in Resources */,
-				F9D2FA6F2219103600F35653 /* Simulator Screen Shot - iPhone 8 - 2019-02-16 at 21.40.09.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
