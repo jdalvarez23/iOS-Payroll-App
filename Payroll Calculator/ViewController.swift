@@ -74,6 +74,8 @@ class ViewController: UIViewController {
         
         statementArray.append(employeeInstance) // append employee instance to array
         
+        /* Save data to the phone storage */
+        
         print("STATEMENT OBJECTS:", statementArray.count)
         
         self.navigationController?.popToRootViewController(animated: true) // method that returns to initial view controller
